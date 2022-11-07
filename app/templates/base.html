@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            MONJA
+        </title>
+            <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+    </head>
+    <body>
+        <div id="content">
+            <div id="head" class="rounded-circle"></div>
+
+            <div id="left-top-hand" class="rounded bones"></div>
+            <div id="left-bottom-hand" class="rounded bones"></div>
+
+            <div id="right-top-hand" class="rounded bones"></div>
+            <div id="right-bottom-hand" class="bones rounded"></div>
+
+            <div id="body" class="bones rounded"></div>
+
+            <div id="left-top-foot" class="rounded bones"></div>
+            <div id="left-bottom-foot" class="rounded bones"></div>
+
+            <div on id="right-top-foot" class="rounded bones"></div>
+            <div id="right-bottom-foot" class="rounded bones"></div>
+
+
+        </div>
+        <a href="{% url 'bonhome' %}" style="text-align:center;margin:auto;">
+            canvas
+        </a>
+        <script type="text/javascript" src="{% static 'js/main.js' %}">
+        </script>
+    </body>
+</html>
+
+

@@ -1,0 +1,102 @@
+body{
+    font-size: 26px;
+    font-family: verdana;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#content{
+    background-color:red;
+    position:absolute;
+    height:400px;
+    width:100px;
+    background:transparent;
+}
+
+
+#head{
+    width:30%;
+    height:10%;
+    background-color: black;
+    margin-left:32%;
+}
+
+
+#left-top-hand{
+    border: 1px solid black;
+    position:absolute;
+    width:15%;
+    height:15%;
+    background-color: green;
+    margin-left:30%;
+    transition-property: transform, margin-left;
+
+}
+
+#left-bottom-hand{
+    position:absolute;
+    width:15%;
+    height:20%;
+    background-color: blue;
+    margin-left:30%;
+}
+
+
+#right-top-hand{
+    position:absolute;
+    width:15%;
+    height:15%;
+    background-color: gray;
+    margin-left:50%;
+}
+#right-bottom-hand{
+    position:absolute;
+    width:15%;
+    height:20%;
+    background-color: blue;
+    margin-left:50%;
+    margin-top:50%;
+}
+
+
+#body{
+    width:15%;
+    height:50%;
+    margin-left:39%;
+    background-color: black;
+}
+
+#left-top-foot{
+    position:absolute;
+    width:15%;
+    height:20%;
+    background-color: gray;
+    margin-left:30%;
+    margin-top:-5%;
+}
+#left-bottom-foot{
+    position:absolute;
+    width:15%;
+    height:20%;
+    background-color: blue;
+    margin-left:30%;
+    margin-top:45%;
+}
+
+
+#right-top-foot{
+    position:absolute;
+    width:15%;
+    height:20%;
+    background-color: green;
+    margin-left:50%;
+    margin-top:-5%;
+}
+#right-bottom-foot{
+    position:absolute;
+    width:15%;
+    height:20%;
+    background-color: blue;
+    margin-left:50%;
+    margin-top:55%;
+}
